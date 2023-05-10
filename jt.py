@@ -55,7 +55,6 @@ def update():
     
     try:
         authorMsg = open("./more/.msg", "r").read().replace("\n", "")
-    except:
         authorMsg = "None"
     except:
         psb("\n    \033[92m[\033[91m!\033[92m] \033[37mPlease Connect To The Internet!")
